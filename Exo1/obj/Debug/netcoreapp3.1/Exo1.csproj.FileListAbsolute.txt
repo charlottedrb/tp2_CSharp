@@ -1,0 +1,12 @@
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/bin/Debug/netcoreapp3.1/Exo1.deps.json
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/bin/Debug/netcoreapp3.1/Exo1.runtimeconfig.json
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/bin/Debug/netcoreapp3.1/Exo1.runtimeconfig.dev.json
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/bin/Debug/netcoreapp3.1/Exo1.dll
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/bin/Debug/netcoreapp3.1/Exo1.pdb
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/obj/Debug/netcoreapp3.1/Exo1.csprojAssemblyReference.cache
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/obj/Debug/netcoreapp3.1/Exo1.AssemblyInfoInputs.cache
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/obj/Debug/netcoreapp3.1/Exo1.AssemblyInfo.cs
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/obj/Debug/netcoreapp3.1/Exo1.csproj.CoreCompileInputs.cache
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/obj/Debug/netcoreapp3.1/Exo1.dll
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/obj/Debug/netcoreapp3.1/Exo1.pdb
+/Users/charlottederbaghdassarian/Documents/lp-dim/C#/tp2_CSharp/Exo1/obj/Debug/netcoreapp3.1/Exo1.genruntimeconfig.cache
