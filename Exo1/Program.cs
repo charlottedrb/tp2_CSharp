@@ -12,7 +12,7 @@ namespace Exo1
             Console.WriteLine(v1.CalculDensite());
             v1.EstPlusDense(v2);
             v1.EstDansLeMemeDepartement(v2);
-            
+            v1.Equals(v2);
         }
     }
 }

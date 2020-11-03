@@ -109,5 +109,79 @@ namespace Exo1
         {
             return Nom + "\n" + "Nb habitants : " + NbHabitants + "\n" + "Superficie : " + Superficie + "\n" + "Code postal : " + CodePostal;
         }
+
+        public override bool Equals(object obj)
+        {
+            if(this == obj)
+            {
+                Console.WriteLine("True");
+                return true;
+            }
+            Console.WriteLine("False");
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public static bool operator >(Ville v1, Ville v2)
+        {
+            if(v1.NbHabitants > v2.NbHabitants)
+            {
+                Console.WriteLine(v1.Nom + " est plus grande que " + v2.Nom);
+                return true;
+            }
+            else
+            {
+                Console.WriteLine(v1.Nom + " est plus petite que " + v2.Nom);
+                return false;
+            }
+            
+        }
+
+        public static bool operator <(Ville v1, Ville v2)
+        {
+            if (v1.NbHabitants < v2.NbHabitants)
+            {
+                Console.WriteLine(v1.Nom + " est plus petite que " + v2.Nom);
+                return true;
+            }
+            else
+            {
+                Console.WriteLine(v1.Nom + " est plus grande que " + v2.Nom);
+                return false;
+            }
+        }
+
+        public static bool operator >=(Ville v1, Ville v2)
+        {
+            if (v1.NbHabitants >= v2.NbHabitants)
+            {
+                Console.WriteLine(v1.Nom + " est plus grande ou de même taille que " + v2.Nom);
+                return true;
+            }
+            else
+            {
+                Console.WriteLine(v1.Nom + " est plus petite ou de même taille que " + v2.Nom);
+                return false;
+            }
+        }
+
+        public static bool operator <=(Ville v1, Ville v2)
+        {
+            if (v1.NbHabitants <= v2.NbHabitants)
+            {
+                Console.WriteLine(v1.Nom + " est plus petite ou de même taille que " + v2.Nom);
+                return true;
+            }
+            else
+            {
+                Console.WriteLine(v1.Nom + " est plus grande ou de même taille que " + v2.Nom);
+                return false;
+            }
+        }
+
     }
 }
